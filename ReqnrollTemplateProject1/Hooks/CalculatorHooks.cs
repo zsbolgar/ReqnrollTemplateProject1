@@ -43,5 +43,11 @@ namespace ReqnrollTemplateProject1.Hooks
         {
             Console.WriteLine("AfterFeature is called");
         }
+
+        [BeforeFeature("Calculator")]
+        public static void BeforeFeatureToIgnore()
+        {
+            Assert.Ignore("for testing");
+        }
     }
 }
