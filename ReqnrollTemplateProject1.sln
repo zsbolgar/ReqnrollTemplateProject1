@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReqnrollTemplateProject1", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunitTestProject1", "NunitTestProject1\NunitTestProject1.csproj", "{F0B19943-07AE-4A3B-87C8-83012A083B23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionAfterFeature", "ExceptionAfterFeatue\ExceptionAfterFeature.csproj", "{4734495C-03A0-4ED8-AB45-A8A7521ED870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F0B19943-07AE-4A3B-87C8-83012A083B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0B19943-07AE-4A3B-87C8-83012A083B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0B19943-07AE-4A3B-87C8-83012A083B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4734495C-03A0-4ED8-AB45-A8A7521ED870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4734495C-03A0-4ED8-AB45-A8A7521ED870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4734495C-03A0-4ED8-AB45-A8A7521ED870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4734495C-03A0-4ED8-AB45-A8A7521ED870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

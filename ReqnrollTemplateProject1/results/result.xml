@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="9" result="Failed" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.19.2.0" clr-version="4.0.30319.42000" start-time="2025-04-25 10:49:50Z" end-time="2025-04-25 10:49:52Z" duration="1.865881">
+  <command-line><![CDATA["C:\Users\Zsolt_Bolgar\Downloads\NUnit.Console-3.19.2\bin\net462\nunit3-console.exe" --timeout=240000 --labels=All --out=c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\results\SpecflowSummary.txt --result=c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\results\result.xml C:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\bin\Debug\net48\ReqnrollTemplateProject1.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1013" name="ReqnrollTemplateProject1.dll" fullname="C:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\bin\Debug\net48\ReqnrollTemplateProject1.dll" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2025-04-25T10:49:50.9584416Z" end-time="2025-04-25T10:49:52.1618629Z" duration="1.203922" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="4.3.2.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.26100.0" platform="Win32NT" cwd="C:\Users\Zsolt_Bolgar\Downloads\NUnit.Console-3.19.2\bin\net462" machine-name="EPHUBUDW01A5" user="ZsoltBolgar" user-domain="AzureAD" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="DefaultTimeout" value="240000" />
+      <setting name="WorkDirectory" value="C:\Users\Zsolt_Bolgar\Downloads\NUnit.Console-3.19.2\bin\net462" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.8" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.8" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="13568" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="ReqnrollTemplateProject1_NUnitAssemblyHooks" classname="ReqnrollTemplateProject1_NUnitAssemblyHooks" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2025-04-25T10:49:50.9702149Z" end-time="2025-04-25T10:49:52.1618629Z" duration="1.191609" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <output><![CDATA[-> Loading plugin C:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\bin\Debug\net48\Reqnroll.NUnit.ReqnrollPlugin.dll
+-> Loading plugin C:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\bin\Debug\net48\ReqnrollTemplateProject1.dll
+-> Using default config
+AfterFeature is called
+]]></output>
+      <test-suite type="TestSuite" id="1-1014" name="ReqnrollTemplateProject1" fullname="ReqnrollTemplateProject1" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2025-04-25T10:49:51.9323135Z" end-time="2025-04-25T10:49:52.1548231Z" duration="0.222423" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1-1015" name="Features" fullname="ReqnrollTemplateProject1.Features" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2025-04-25T10:49:51.9323135Z" end-time="2025-04-25T10:49:52.1548231Z" duration="0.222377" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1001" name="CalculatorFeature" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2025-04-25T10:49:51.9323135Z" end-time="2025-04-25T10:49:52.1548231Z" duration="0.222344" total="9" passed="0" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="Calculator" />
+              <property name="Category" value="Calculator" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="1-1005" name="AddTwoNumbers" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbers" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2025-04-25T10:49:51.9333139Z" end-time="2025-04-25T10:49:52.1387533Z" duration="0.205682" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="Description" value="Add two numbers" />
+                <property name="Category" value="DataSourceScenarioTag" />
+                <property name="Category" value="DataSource:..\TestData\testdata.csv" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1-1002" name="AddTwoNumbers(&quot;firstData&quot;,null)" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbers(&quot;firstData&quot;,null)" methodname="AddTwoNumbers" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1786084316" result="Failed" label="Error" start-time="2025-04-25T10:49:51.9333139Z" end-time="2025-04-25T10:49:52.1277553Z" duration="0.194492" asserts="0">
+                <failure>
+                  <message><![CDATA[throw assert exception of firstData
+TearDown : throw assert exception of firstData]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[throw assert exception of firstData]]></message>
+                    <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+              <test-case id="1-1003" name="AddTwoNumbers(&quot;secondData&quot;,null)" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbers(&quot;secondData&quot;,null)" methodname="AddTwoNumbers" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1872858669" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1297551Z" end-time="2025-04-25T10:49:52.1357553Z" duration="0.006650" asserts="0">
+                <failure>
+                  <message><![CDATA[throw assert exception of secondData
+TearDown : throw assert exception of secondData]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[throw assert exception of secondData]]></message>
+                    <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+              <test-case id="1-1004" name="AddTwoNumbers(&quot;thirdData&quot;,null)" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbers(&quot;thirdData&quot;,null)" methodname="AddTwoNumbers" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1522653675" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1367552Z" end-time="2025-04-25T10:49:52.1377547Z" duration="0.001211" asserts="0">
+                <failure>
+                  <message><![CDATA[throw assert exception of thirdData
+TearDown : throw assert exception of thirdData]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[throw assert exception of thirdData]]></message>
+                    <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterDataSourceScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 25
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+            </test-suite>
+            <test-case id="1-1010" name="AddTwoNumbersFirstData" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersFirstData" methodname="AddTwoNumbersFirstData" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="139441708" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1397508Z" end-time="2025-04-25T10:49:52.1417534Z" duration="0.002339" asserts="0">
+              <properties>
+                <property name="Description" value="Add two numbers firstData" />
+                <property name="Category" value="ScenarioTag" />
+              </properties>
+              <failure>
+                <message><![CDATA[throw assert exception
+TearDown : throw assert exception]]></message>
+                <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[throw assert exception]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1-1009" name="AddTwoNumbersOutline" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersOutline" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2025-04-25T10:49:52.1417534Z" end-time="2025-04-25T10:49:52.1497532Z" duration="0.007818" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="Description" value="Add two numbers outline" />
+                <property name="Category" value="ScenarioOutlineTag" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1-1006" name="AddTwoNumbersOutline(&quot;firstData&quot;,null)" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersOutline(&quot;firstData&quot;,null)" methodname="AddTwoNumbersOutline" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1911122629" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1417534Z" end-time="2025-04-25T10:49:52.1447508Z" duration="0.002511" asserts="0">
+                <failure>
+                  <message><![CDATA[throw assert exception of firstData
+TearDown : throw assert exception of firstData]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[throw assert exception of firstData]]></message>
+                    <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+              <test-case id="1-1007" name="AddTwoNumbersOutline(&quot;secondData&quot;,null)" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersOutline(&quot;secondData&quot;,null)" methodname="AddTwoNumbersOutline" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1705224638" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1447508Z" end-time="2025-04-25T10:49:52.1457696Z" duration="0.001187" asserts="0">
+                <failure>
+                  <message><![CDATA[throw assert exception of secondData
+TearDown : throw assert exception of secondData]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[throw assert exception of secondData]]></message>
+                    <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+              <test-case id="1-1008" name="AddTwoNumbersOutline(&quot;thirdData&quot;,null)" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersOutline(&quot;thirdData&quot;,null)" methodname="AddTwoNumbersOutline" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1257400211" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1457696Z" end-time="2025-04-25T10:49:52.1497532Z" duration="0.004067" asserts="0">
+                <failure>
+                  <message><![CDATA[throw assert exception of thirdData
+TearDown : throw assert exception of thirdData]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[throw assert exception of thirdData]]></message>
+                    <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenarioOutline() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 31
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+            </test-suite>
+            <test-case id="1-1011" name="AddTwoNumbersSecondData" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersSecondData" methodname="AddTwoNumbersSecondData" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1218153019" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1497532Z" end-time="2025-04-25T10:49:52.1517536Z" duration="0.002025" asserts="0">
+              <properties>
+                <property name="Description" value="Add two numbers secondData" />
+                <property name="Category" value="ScenarioTag" />
+              </properties>
+              <failure>
+                <message><![CDATA[throw assert exception
+TearDown : throw assert exception]]></message>
+                <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[throw assert exception]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="1-1012" name="AddTwoNumbersThirdData" fullname="ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersThirdData" methodname="AddTwoNumbersThirdData" classname="ReqnrollTemplateProject1.Features.CalculatorFeature" runstate="Runnable" seed="1811785059" result="Failed" label="Error" start-time="2025-04-25T10:49:52.1517536Z" end-time="2025-04-25T10:49:52.1538176Z" duration="0.001811" asserts="0">
+              <properties>
+                <property name="Description" value="Add two numbers thirdData" />
+                <property name="Category" value="ScenarioTag" />
+              </properties>
+              <failure>
+                <message><![CDATA[throw assert exception
+TearDown : throw assert exception]]></message>
+                <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+
+--TearDown
+   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Bindings.BindingInvoker.<InvokeBindingAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<InvokeHookAsync>d__50.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireEventsAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<FireScenarioEventsAsync>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.Infrastructure.TestExecutionEngine.<OnScenarioEndAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Reqnroll.TestRunner.<OnScenarioEndAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at ReqnrollTemplateProject1.Features.CalculatorFeature.<TestTearDownAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)
+   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+]]></output>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[throw assert exception]]></message>
+                  <stack-trace><![CDATA[   at ReqnrollTemplateProject1.Hooks.CalculatorHooks.AfterScenario() in c:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\Hooks\CalculatorHooks.cs:line 37
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,41 @@
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbers("firstData",null)
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbers("secondData",null)
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbers("thirdData",null)
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersFirstData
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersOutline("firstData",null)
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersOutline("secondData",null)
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersOutline("thirdData",null)
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersSecondData
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1.Features.CalculatorFeature.AddTwoNumbersThirdData
+Given the first number is 50
+The first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+=> ReqnrollTemplateProject1_NUnitAssemblyHooks
+-> Loading plugin C:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\bin\Debug\net48\Reqnroll.NUnit.ReqnrollPlugin.dll
+-> Loading plugin C:\Projects\ReqnrollTemplateProject1\ReqnrollTemplateProject1\bin\Debug\net48\ReqnrollTemplateProject1.dll
+-> Using default config
+AfterFeature is called

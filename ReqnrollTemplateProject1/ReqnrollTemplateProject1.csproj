@@ -9,10 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
-    <PackageReference Include="Reqnroll.ExternalData" Version="2.4.0" />
-    <PackageReference Include="Reqnroll.NUnit" Version="2.4.0" />
     <PackageReference Include="nunit" Version="4.3.2" />
     <PackageReference Include="NUnit3TestAdapter" Version="5.0.0" />
+    <PackageReference Include="Reqnroll" Version="2.4.1-ci20250423-957" />
+    <PackageReference Include="Reqnroll.ExternalData" Version="2.4.1-ci20250423-957" />
+    <PackageReference Include="Reqnroll.NUnit" Version="2.4.1-ci20250423-957" />
+    <PackageReference Include="Reqnroll.Tools.MsBuild.Generation" Version="2.4.1-ci20250423-957" />
   </ItemGroup>
 
   <ItemGroup>
